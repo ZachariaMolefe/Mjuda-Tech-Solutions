@@ -4,6 +4,25 @@
     box-sizing: border-box;
 }
 
+/* Style the logo container */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+/* Constrain the image size */
+.logo-img {
+    height: 50px; /* Adjust this value based on your navbar height */
+    width: auto;  /* Maintains aspect ratio */
+    display: block;
+}
+
+/* Optional: Add hover effect to the logo */
+.logo-img:hover {
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
 :root {
     --primary-color: #2563eb;
     --secondary-color: #1e40af;
